@@ -5,6 +5,11 @@
 
 <!-- controller -->
 <bean id="indexController" class="soo.controller.IndexController"></bean>
+<bean id="bbsController" class="soo.controller.BbsController"></bean>
+<bean id="memberController" class="soo.controller.MemberController"></bean>
+
+
+
 
 <bean id="viewResolver" 
 	class="org.springframework.web.servlet.view.InternalResourceViewResolver">
