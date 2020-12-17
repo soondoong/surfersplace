@@ -21,40 +21,7 @@
     </style>
 </head>
 <body>
- <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-	<header class="fixedmenu row">
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-
-        <ul id="menu" class="shadow col-md-12" >
-        	<li class="col-md-2">
-                <a href="#lead">TheGreenRoom</a>
-            </li>
-         	<li class="col-md-2">
-                <a href="#lead" >Home</a>
-            </li>
-            <li class="col-md-2">
-                <a href="#about">About</a>
-            </li>
-            <li class="col-md-2">
-                <a href="bbs.do" class="no-scroll">사진게시판</a>
-            </li>
-            <li class="col-md-2">
-                <a href="#" class="no-scroll">자유게시판</a>
-            </li>
-            <li class="col-md-1">
-            <a href="#" class="no-scroll">로그인</a>
-            </li>
-         	<li class="col-md-1">
-         	<a href="memberJoin.do" class="no-scroll">회원가입</a>
-         	</li>
-        </ul>
-</header>
-
+<%@include file="/header.jsp" %>
     <!-- End header -->
 
     <div id="lead">
